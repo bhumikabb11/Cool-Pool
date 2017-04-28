@@ -1,0 +1,188 @@
+/*Header*/
+.userStatus{
+	display: inline-block;
+	margin-right: 10px;
+}
+.existMessage{
+  display: none;
+}
+/*Header End*/
+
+/*footer*/
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+.container {
+  width: auto;
+  max-width: 680px;
+  padding: 0 15px;
+}
+.container .text-muted {
+  margin: 20px 0;
+}
+/*footer end*/
+
+
+/*image background*/
+.mainView { 
+  background: url(../images/bg.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.mainDiv{
+  height: 100px;
+}
+.mainContent{
+  margin-top:20%;
+  text-align: center;
+}
+.mainContent h1{
+  text-shadow: 2px 2px 2px white;
+  font-size: 35px;
+}
+.mainDiv form{
+  margin-bottom: 30%;
+}
+.mainSearch{
+  padding:22px 15px;
+  font-size: 20px;
+}
+.mainSearchBtn{
+  padding: 12px;
+}
+/*end*/
+
+/*home*/
+.userTypeDiv{
+  text-align: center;
+  margin: 15% 0%;
+  padding: 15% 0%;
+  box-shadow: 0px 0px 2px 2px #ccc;
+  border-radius: 3px
+}
+.userType{
+  width: 150px;
+}
+.userTypeSelectBtn{
+  margin-top: 10px;
+  font-size: 20px;
+  width: 50%;
+}
+
+.userTypeDiv:hover{
+    box-shadow: 0px 0px 2px 2px #777;
+}
+/*end*/
+
+/*rider*/
+.riderBg{
+    background: url(../images/map.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.searchRide{
+  margin:8% 0;
+}
+.searchRide h2{
+  text-align: center;
+}
+.riderSearchBtnDiv{
+  margin:9% 0;
+  text-align: center;
+}
+.summary{
+  display: none;
+      background: #fff;
+    padding: 15px;
+    box-shadow: 0px 0px 2px 2px #ccc;
+    border-radius: 4px;
+    text-align: left !important;
+}
+.summary h3,h4{
+  color: #34495e;
+}
+.summaryPoints{
+  color:#e74c3c!important;
+}
+.riderSearchBtn{
+  font-size: 25px;
+  text-align: center;
+  width: 30%!important;
+}
+.riderSearch{
+  border-radius: 5px !important;
+  padding:22px 15px;
+  font-size: 20px;
+}
+/*end*/
+
+/*driver*/
+.driverSection{
+  text-align: center;
+}
+.updateDriveForm{
+  background: #ccc;
+    padding: 40px 0px 20px 0px;
+    margin: 19px 0px;
+    box-shadow: 0px 0px 2px 2px #777;
+    border-radius: 4px;
+}
+.registerRideForm{
+  margin:20px 0;
+  text-align: left;
+      background: #eee;
+    padding: 10px;
+    box-shadow: 0px 0px 5px 2px #ccc;
+    border-radius: 4px;
+}
+.extra{
+  margin-right: 10px !important;
+}
+.myRideIterate{
+  margin:20px 0px;
+      padding: 25px;
+    box-shadow: 0px 0px 5px 0px;
+    border-radius: 5px;
+}
+.seachRideDiv{
+  text-align: center;
+  display: none;
+}
+.searchRideBtn{
+  width: 30%;
+  padding:10px;
+  margin-bottom: 20px;
+}
+.searchIterate{
+  margin:10px 0px;
+      background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 1px #ccc;
+}
+/*end*/
